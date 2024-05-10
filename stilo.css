@@ -1,0 +1,75 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.faixa {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    position: relative; /* Posicionamento relativo */
+    height: 30px; /* Altura da faixa */
+    margin-bottom: 20px; /* Margem inferior para dar espaço ao botão */
+  }
+
+  /* Estilo para o botão */
+  .botao {
+    background-color: #ffffff; /* Cor de fundo */
+    color: #4CAF50; /* Cor do texto */
+    padding: 10px 25px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover sublinhado padrão */
+    display: inline-block; /* Exibir como um elemento em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover borda */
+    cursor: pointer; /* Cursor do mouse */
+    position: absolute; /* Posicionamento absoluto */
+    top: 50%; /* Alinhar ao topo */
+    right: 300px; /* Distância da lateral direita */
+    transform: translateY(-50%); /* Centralizar verticalmente */
+  }
+
+  h1 {
+    position: absolute; /* Posicionamento absoluto */
+    top: 50%; /* Alinhar ao topo */
+    left: 50%; /* Alinhar ao centro horizontalmente */
+    transform: translate(-50%, -50%); /* Centralizar vertical e horizontalmente */
+    margin: 0; /* Remover margens padrão */
+    font-size: 25px;
+
+  }
+
+  .logo {
+    width: 80px;
+    height: 100px;
+    margin-left: auto;
+  }
+
+  .menu{
+    display: flex;
+  }
+  .menu-items {
+    display: inline; /* Exibir os itens em linha */
+    display: flex; /* Exibir os itens em linha */
+    align-items: center; /* Centralizar verticalmente */
+    margin-left: 900px; /* Margem à esquerda para separar os itens */
+    
+    
+  }
+  
+  .menu-item {
+    
+    text-decoration: none; /* Remover sublinhado padrão */
+    color: #000000; /* Cor do texto */
+    border-width: 50px;
+    padding: 30px 30px;    
+  }
+
+  .img{
+    height: 100px; /* Altura do banner */
+    display: flex; /* Exibir os itens em linha */
+    align-items: center; /* Centralizar verticalmente */
+    justify-content: space-between; /* Distribuir os itens igualmente */
+    padding: 0 20px; 
+    
+  }
