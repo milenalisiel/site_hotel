@@ -45,14 +45,17 @@ body{
     margin-left: auto;
   }
 
-  menu{
+  .menu{
     display: flex;
+    justify-content: center;
+    
   }
  
   .menu-items {
     display:flex; /* Exibir os itens em linha */
     margin-left: 800px; /* Margem à esquerda para separar os itens */
     justify-content: center;
+
     
     
   }
@@ -122,8 +125,9 @@ body{
 .form-container {
   background: rgba(255, 255, 255, 0.404);
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 0px;
   margin-top: 30px;
+  margin-bottom: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
   justify-content: center;
@@ -186,19 +190,24 @@ button:hover {
 }
 
 
+
 .box{
-  background-color: gray;
-  width: 300px;
-  height: 20px;
+  
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  flex-direction: column-reverse;
+  
 }
 
-.box::after{
-    content: "Assista o Video";
-    position: fixed;
-    color: red;
-    margin-left: -110px;
-    background-color: orange;
-    width: 100px;
-    text-align: right;
-    margin-top: 50px;
+.tag{
+  background-color: rgb(255, 208, 0);
+  width: 100px;
+  position: relative;
+  top: -300px;
+  right: -200px;
+  
 }
